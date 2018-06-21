@@ -33,6 +33,12 @@ ETH: 0x1e3c6aadcf9ece27fef76d7087e2eff0f559eeb9 ❤️
 $ npm install
 ```
 
+Add your INFURA_API_KEY in `.env.example` and rename the file.
+
+```bash
+$ mv .env.example .env
+```
+
 ## Start
 
 ```
