@@ -5,9 +5,8 @@ import * as path from 'path';
 export class ConfigService {
   private readonly envConfig: { [prop: string]: string };
 
-  constructor(filePath: string = process.cwd()+'/.env' ) {
-    console.log('filePath', filePath)
-    this.envConfig = dotenv.parse(fs.readFileSync(filePath))
+  constructor() {
+    this.envConfig = process.env;
   }
 
   get(key: string): string {

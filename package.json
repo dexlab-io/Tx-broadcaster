@@ -1,10 +1,10 @@
 {
-  "name": "token-info-api",
+  "name": "tx-broadcaster",
   "version": "0.0.1",
-  "description": "Public API of ERC20 token informations and images",
+  "description": "TXs broadcaster Microservice for DexWallet 🔥 ",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
+    "start": "node -r dotenv/config index.js",
     "start:watch": "nodemon",
     "prestart:prod": "tsc",
     "start:prod": "node dist/main.js"
